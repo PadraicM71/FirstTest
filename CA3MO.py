@@ -150,3 +150,5 @@ def tabu_search(first_solution, distance_of_first_solution, dict_of_neighbours, 
     best_solution_ever.pop(-1)
     return best_solution_ever, best_cost
     
+
+    
