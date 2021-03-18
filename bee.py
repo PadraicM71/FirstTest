@@ -180,9 +180,15 @@ print(solution)
 #If you want to get the number of iterations executed, number of times that
 #scout event occur and number of times that NaN protection actuated:
 iterations = abc_obj.get_status()[0]
+print(iterations)
+
 scout = abc_obj.get_status()[1]
+print(scout)
+
 nan_events = abc_obj.get_status()[2]
+print(nan_events)
 
 #If you want to get a list with position of all points (food sources) used in each iteration:
 food_sources = abc_obj.get_agents()
+print(food_sources)
 
