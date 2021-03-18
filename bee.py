@@ -162,7 +162,7 @@ def my_func(x): return x[0]**2 + x[1]**2 + 5*x[1]
 # abc_obj.fit() #Execute the algorithm
 
 
-abc_obj = abc(sphere,
+abc_obj = abc(my_func,
               [(-10,10), (-10,10)],
               colony_size=40,
               scouts=0.5,
